@@ -1,0 +1,76 @@
+body {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    border: solid #D4CB92 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+h2 {
+    border: solid #3581B8 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+.navitem a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navitem a:hover {
+    background-color: #111;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.layout {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.friends {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    overflow: auto;
+}
+
+.friend-img {
+    padding: 15px;
+    width: 100%;
+}
+
+.blue {
+    border: 2px solid blue;
+    margin: 3px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
